@@ -1,0 +1,38 @@
+---
+import Layout from "./layout.astro";
+const nombre = "anfa"
+console.log(nombre)
+---
+<Layout pageTitle="este  es el index">
+	<style>
+		.title{
+			color: black;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		}
+		
+		.test{
+		
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		}
+		</style>
+		<script>
+			const nombre = "title"
+			console.log(nombre);
+		</script>
+		<html lang="en">
+			<head>
+				<meta charset="utf-8" />
+				<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+				<meta name="viewport" content="width=device-width" />
+				<meta name="generator" content={Astro.generator} />
+				<title>adso Astro</title>
+			</head>
+			<body>
+				<h1>{nombre}</h1>
+				<h2>{nombre}</h2>
+				<h3>{3 * 3}</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed placeat eius iusto laboriosam eligendi consequuntur eum corrupti delectus, temporibus doloremque libero vero blanditiis inventore totam minus modi at excepturi quidem!</p>
+			</body>
+		</html>
+		
+</layout>
